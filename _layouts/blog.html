@@ -5,9 +5,9 @@ layout: default-news
   <div class="row">
 
    <div class="eight columns">
-     <div class="shifted-left">
+     <!-- <div class="shifted-left">
        {{ site.ads.aads728 }}
-     </div>
+     </div> -->
        <span id="note">
          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
        </span>
@@ -17,11 +17,11 @@ layout: default-news
           </strong>
         </h4>
         {% if page.update %}
-        <small>
+        <!-- <small>
           <time datetime="{{ page.update | date_to_xmlschema }}">
             Last Update: {{ page.update | date: "%d %b %Y" }}
           </time>
-        </small>
+        </small> -->
         {% endif %}
         <article class="maincontent">
 
@@ -46,9 +46,11 @@ layout: default-news
 
           {% endif %}
 
+          <!-- {% include recent-post.html %} -->
+
         </article>
     </div>
-    <div class="four columns nomargintop">
+    <!-- <div class="four columns nomargintop">
       {% include sidebar.html %}
-    </div>
+    </div> -->
   </div>

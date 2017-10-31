@@ -3,6 +3,8 @@ layout: page
 title: coupons
 permalink: /referral-coupons/
 description: List of referrer codes and offers that will give you a fee rebate.
+navi:
+ exclude: yes
 ---
 
 

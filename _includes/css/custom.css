@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Droid Sans',"微軟正黑體",sans-serif;
     color: #413F4F;
 }
 
@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Arial',"微軟正黑體" , serif;
 }
 
 hr.home {
@@ -107,7 +107,7 @@ font-weight: 400;
 
 h4.post {
     margin-top: 0px;
-    background: #7A838D;
+    background: #FFFFFF;
     color: #fff;
     padding: 5px 10px 3px;
     margin-left: -10px;
@@ -140,10 +140,10 @@ img.post {
 }
 
 span#note {
-    background: #001f3f;
+    background: #FF3333;
     color: #fff;
     position: relative;
-    left: -10px;
+    left: 0px;
     padding: 3px 10px;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -159,7 +159,7 @@ span#note:hover {
 nav.main {
     line-height: 2.4;
     font-size: 1.8rem;
-    font-family: "Droid Sans", sans-serif
+    font-family: "Droid Sans","微軟正黑體" sans-serif
 }
 
 nav.main a {
@@ -242,7 +242,7 @@ ul.divided li div {
     font-size: 1.8rem;
     color: #001f3f ;
     background: transparent;
-    padding: 15px 0;
+    padding: 0px 0;
     font-weight: 800;
     border-bottom: 2px solid #7A838D;
 }
@@ -277,7 +277,7 @@ ul.divided li div {
   }
 
 .stripe .hl a {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Arial',"微軟正黑體", serif;
     float: left;
     margin-bottom: 0;
     font-size: 4rem;
@@ -285,7 +285,7 @@ ul.divided li div {
     letter-spacing: -.1rem;
     text-decoration: none;
     color: #001f3f;
-    font-weight: 800;
+    font-weight: 200;
 }
 
 .stripe p {
@@ -304,7 +304,7 @@ figure.post {
     margin: 0 0 30px;
 }
 figure.border {
-max-width: 100% ;
+max-width: 70% ;
 margin: 0 0 30px;
 border: 2px dotted #7A838D;
 }
@@ -332,9 +332,9 @@ figure.thumb {
 }
 
 .footer{
-line-height: 50px;
+line-height: 25px;
 border-top: 2px solid #7A838D;
-font-size: 80%;
+font-size: 100%;
 }
 .contacticon .center {font-size: 30px;
     text-align: center;
@@ -445,4 +445,44 @@ figure.noborder {
     margin-top: 0;
     font-weight: 400;
   }
+}
+/*#新增related post*/
+.recent-box {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.recent-box .recent-title {
+  font-family: "微軟正黑體",'Lato', sans-serif;
+  font-weight: 400;
+  color: #311e3e;
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+.recent-box .recent-list .recent-item {
+  position: relative;
+  display: inline-block;
+  width: 24%;
+  height: 150px;
+  margin-left: 0.5%;
+  margin-bottom: 0.5%;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.recent-box .recent-list .recent-item span {
+  position: absolute;
+  font-size: 12px;
+  left: 2.5%;
+  bottom: 10%;
+  color: #fff;
+}
+
+.recent-box .recent-list .recent-item:hover {
+  opacity: 0.8;
+}
+.nine.columns {
+  margin-bottom:28px
 }

@@ -1,12 +1,12 @@
 # Site settings
-title: "Altcoin Trading"
-subtitle: "The forex of cryptocurrencies, bitcoin as the base."
+title: "E.Major Taiwan"
+subtitle: ""
 description: "Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency."
 baseurl: ""
 url: "https://www.altcointrading.net"
 # url: http://localhost:4000
 
-author: "AltcoinTrading"
+author: "E.Marjo IT"
 # Build settings
 markdown: kramdown
 ## Default image size: 700x360

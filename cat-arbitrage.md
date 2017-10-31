@@ -3,6 +3,8 @@ layout: page
 title: "arbitrage trading"
 description: "How to arbitrage trade altcoins and also all info on trade bots."
 permalink: /category/arbitrage/
+navi:
+ exclude: yes
 ---
 
 <h4 class="exa">All posts related to <b>bitcoin arbitrage</b> or <b>altcoin arbitrage</b></h4>
