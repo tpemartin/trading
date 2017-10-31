@@ -14,42 +14,8 @@
 
     
     
-    
-    
-    
-    
     <url>
-        <loc>http://localhost:4000/referral-coupons/</loc>
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://localhost:4000/category/arbitrage/</loc>
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://localhost:4000/category/altcoins/</loc>
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://localhost:4000/category/exchanges/</loc>
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://localhost:4000/category/trading/</loc>
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://localhost:4000/category/wallets/</loc>
+        <loc>http://localhost:4000/about/</loc>
     </url>
     
     
@@ -78,21 +44,47 @@
     
     
     
+    <url>
+        <loc>http://localhost:4000/daily-juice/</loc>
+    </url>
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/review/</loc>
+    </url>
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/data-science/</loc>
+    </url>
     
     
 
     
     <url>
-        <loc>http://localhost:4000/ethereum-etf-unlikely/</loc>
+        <loc>http://localhost:4000/2017-10-15-daily-juice</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/wyckoff-avoidance/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/how-to-buy-altcoins/</loc>
+        <loc>http://localhost:4000/2017-10-15-dailyjuice-instructions</loc>
     </url>
     
 

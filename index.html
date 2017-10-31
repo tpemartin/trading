@@ -5,9 +5,9 @@ navi:
 ---
 <div class="container">
   <div class="row">
-   <div class="eight columns swapper">
+   <div class="homeeight columns swapper">
 
-    <section id="popular-posts">
+    <!-- <section id="popular-posts">
       <span id="note">Popular Posts</span>
       <br><br>
       {% for post in site.posts %}
@@ -16,18 +16,18 @@ navi:
           <strong>
             <a href=".{{ post.url }}">{{ post.title }}</a>
           </strong>
-        <br>
-          {% if post.update %}<em> Updated {{ post.update | date: "%d %b %Y" }}: </em>{% endif %}{{ post.description }}
+        <br> -->
+          <!-- {% if post.update %}<em> Updated {{ post.update | date: "%d %b %Y" }}: </em> -->
+          <!-- {% endif %}{{ post.description }}
         </p>
         {% endif %}
       {% endfor %}
       <hr class="home">
-    </section>
+    </section> -->
 
 
 
     <section id="new-posts">
-      {{ site.ads.aads728 }}
       <br>
       <span id="note">New Posts</span>
       {% for post in site.posts offset: 0 limit: 15 %}
@@ -40,13 +40,13 @@ navi:
         <div class="row">
           <div class="nine columns">
             {{ post.description }}
-            {% if post.comments %}
+            <!-- {% if post.comments %}
             <p>
               [<a href="{{ site.url }}{{ site.baseurl}}{{ post.url }}#disqus_embed">
               Comments
               </a>]
             </p>
-            {% endif %}
+            {% endif %} -->
           </div>
           {% if post.image[0] %}
           <div class="three columns">
@@ -62,7 +62,6 @@ navi:
           {% endif %}
         </div>
       {% endfor %}
-      {{ site.ads.aads728 }}
     </section>
 
 

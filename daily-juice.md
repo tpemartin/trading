@@ -1,20 +1,13 @@
 ---
 layout: page
-title: "altcoin exchanges"
-description: "Best altcoin exchanges - for new coins, for trading, for trading bots."
-permalink: /category/exchanges/
-navi:
- exclude: yes
+title: "Daily Juice"
+description: "用一杯果汁，品嘗世界"
+permalink: /daily-juice/
 ---
-
-<h4 class="exa">All posts related to <b>altcoin exchanges</b></h4>
-
-<p>{{ site.ads.aads728 }}</p>
-
-<span id="note">"Altcoin exchanges"</span>
-
+<!-- <span id="note">{{page.title}}</span> -->
 {% for post in site.posts %}
-  {% if post.category contains "exchanges" or post.categories contains "exchanges" %}
+  {% if post.category contains "daily-juice" %}
+  {%unless post.tags contains "closed"%}
   <h4 class="post">
   <strong>
   <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | capitalize }}</a>
@@ -31,8 +24,8 @@ navi:
     <div class="three columns">
       <a target="_blank" href="{{ post.url }}">
         <figure class="thumb">
-          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog" layout=""
-          width="150px" height="80px">
+          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="" layout=""
+          width="160px" height="100px">
           </amp-img>
         </figure>
       </a>
@@ -42,8 +35,6 @@ navi:
 
 
   </div>
-
+  {% endunless %}
   {% endif %}
 {% endfor %}
-
-{{ site.ads.aads728 }}

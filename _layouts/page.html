@@ -5,16 +5,20 @@ layout: default
   <div class="row">
 
    <div class="eight columns">
-       <h4 class="post">
+       <!-- <h4 class="post">
           <strong>
             {{ page.title }}
           </strong>
-        </h4>
+        </h4> -->
+        <span id="note"><strong>
+          {{ page.title }}
+        </strong></span>
+        <br><br>
         <article class="maincontent">
           {{ content }}
         </article>
     </div>
     <div class="four columns notopmargin">
-      {% include sidebar.html %}
+      <!-- {% include sidebar.html %} -->
     </div>
   </div>

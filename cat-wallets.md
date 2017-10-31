@@ -3,6 +3,8 @@ layout: page
 title: "altcoin wallets"
 description: "Where to keep altcoin safely? There are hardware wallets for altcoins already!"
 permalink: /category/wallets/
+navi:
+ exclude: yes
 ---
 
 <h4 class="exa">All posts related to <b>altcoin wallets</b></h4>

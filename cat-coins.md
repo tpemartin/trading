@@ -3,6 +3,8 @@ layout: page
 title: "best altcoins"
 description: "Featured altcoins and analyses."
 permalink: /category/altcoins/
+navi:
+ exclude: yes
 ---
 
 {{ site.ads.aads728 }}
