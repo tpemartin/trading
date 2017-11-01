@@ -3,6 +3,8 @@ layout: page
 title: "altcoin trading"
 description: "Where to trade altcoins? What are good exchanges for altcoin trading? Who has lowest fees?"
 permalink: /category/trading/
+navi:
+ exclude: yes
 ---
 
 <h4 class="exa">All posts related to <b>altcoin trading</b> or <b>technical analysis</b></h4>
